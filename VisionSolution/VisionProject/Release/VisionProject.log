@@ -1,0 +1,42 @@
+﻿生成启动时间为 2016/4/19 13:10:41。
+     1>项目“D:\test\VisionSolution20160325\VisionProject\VisionProject.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\VisionProject.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt VisionProjectDoc.cpp
+         VisionProjectDoc.cpp
+     1>C:\Program Files (x86)\Point Grey Research\FlyCapture2\include\FlyCapture2.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\FlyCapture2Defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Error.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Camera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\CameraBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\GigECamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Image.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\test\VisionSolution20160325\Release\VisionProject.exe" /INCREMENTAL:NO /NOLOGO FlyCapture2.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_nonfree2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_videostab2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\test\VisionSolution20160325\Release\VisionProject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\test\VisionSolution20160325\Release\VisionProject.lib" /MACHINE:X86 /SAFESEH Release\VisionProject.res
+         Release\CameraGrab.obj
+         Release\ComPart.obj
+         Release\Cvgdi.obj
+         Release\DetObjectPar.obj
+         Release\DoubleCrane.obj
+         Release\log.obj
+         Release\MainFrm.obj
+         Release\NetWork.obj
+         Release\PointGray.obj
+         Release\SocketServer.obj
+         Release\StaticClass.obj
+         Release\stdafx.obj
+         Release\svPTGrab2.obj
+         Release\DetectData.obj
+         Release\TShowData.obj
+         Release\VisionCalibration.obj
+         Release\VisionProject.obj
+         Release\VisionProjectDoc.obj
+         Release\VisionProjectView.obj
+         正在生成代码
+         已完成代码的生成
+         VisionProject.vcxproj -> D:\test\VisionSolution20160325\Release\VisionProject.exe
+     1>已完成生成项目“D:\test\VisionSolution20160325\VisionProject\VisionProject.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.07

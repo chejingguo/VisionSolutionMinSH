@@ -1,0 +1,166 @@
+﻿生成启动时间为 2016/4/23 17:20:29。
+     1>项目“D:\test\VisionSolution20160325\VisionProject\VisionProject.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\VisionProject.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\VisionProject.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CameraGrab.cpp ComPart.cpp Cvgdi.cpp DetObjectPar.cpp DoubleCrane.cpp log.cpp MainFrm.cpp NetWork.cpp PointGray.cpp SocketServer.cpp StaticClass.cpp svPTGrab2.cpp DetectData.cpp TShowData.cpp VisionCalibration.cpp VisionProject.cpp VisionProjectDoc.cpp VisionProjectView.cpp
+         CameraGrab.cpp
+     1>C:\Program Files (x86)\Point Grey Research\FlyCapture2\include\FlyCapture2.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\FlyCapture2Defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Error.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Camera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\CameraBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\GigECamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Image.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>CameraGrab.cpp(223): warning C4244: “初始化”: 从“UINT”转换到“float”，可能丢失数据
+     1>CameraGrab.cpp(226): warning C4244: “=”: 从“UINT”转换到“float”，可能丢失数据
+     1>CameraGrab.cpp(229): warning C4244: “=”: 从“UINT”转换到“float”，可能丢失数据
+         ComPart.cpp
+     1>C:\Program Files (x86)\Point Grey Research\FlyCapture2\include\FlyCapture2.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\FlyCapture2Defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Error.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Camera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\CameraBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\GigECamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Image.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Cvgdi.cpp
+         DetObjectPar.cpp
+     1>C:\Program Files (x86)\Point Grey Research\FlyCapture2\include\FlyCapture2.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\FlyCapture2Defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Error.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Camera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\CameraBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\GigECamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Image.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         DoubleCrane.cpp
+     1>DoubleCrane.cpp(50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>DoubleCrane.cpp(172): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>DoubleCrane.cpp(173): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>DoubleCrane.cpp(174): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>DoubleCrane.cpp(175): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>DoubleCrane.cpp(244): warning C4552: “>”: 运算符不起任何作用；应输入带副作用的运算符
+     1>DoubleCrane.cpp(316): warning C4552: “>”: 运算符不起任何作用；应输入带副作用的运算符
+     1>DoubleCrane.cpp(399): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>DoubleCrane.cpp(400): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>DoubleCrane.cpp(401): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>DoubleCrane.cpp(402): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>DoubleCrane.cpp(412): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DoubleCrane.cpp(413): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DoubleCrane.cpp(417): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DoubleCrane.cpp(418): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DoubleCrane.cpp(420): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DoubleCrane.cpp(421): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DoubleCrane.cpp(494): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>DoubleCrane.cpp(571): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>DoubleCrane.cpp(571): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         log.cpp
+         MainFrm.cpp
+     1>C:\Program Files (x86)\Point Grey Research\FlyCapture2\include\FlyCapture2.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\FlyCapture2Defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Error.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Camera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\CameraBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\GigECamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Image.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         NetWork.cpp
+         PointGray.cpp
+     1>C:\Program Files (x86)\Point Grey Research\FlyCapture2\include\FlyCapture2.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\FlyCapture2Defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Error.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Camera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\CameraBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\GigECamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Image.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         SocketServer.cpp
+         StaticClass.cpp
+         svPTGrab2.cpp
+     1>C:\Program Files (x86)\Point Grey Research\FlyCapture2\include\FlyCapture2.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\FlyCapture2Defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Error.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Camera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\CameraBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\GigECamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Image.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>svPTGrab2.cpp(239): warning C4018: “<”: 有符号/无符号不匹配
+     1>svPTGrab2.cpp(2063): warning C4018: “<”: 有符号/无符号不匹配
+     1>svPTGrab2.cpp(2289): warning C4305: “参数”: 从“int”到“char”截断
+     1>svPTGrab2.cpp(2289): warning C4309: “参数”: 截断常量值
+     1>svPTGrab2.cpp(2376): warning C4305: “参数”: 从“int”到“char”截断
+     1>svPTGrab2.cpp(2376): warning C4309: “参数”: 截断常量值
+     1>svPTGrab2.cpp(2904): warning C4018: “<”: 有符号/无符号不匹配
+     1>svPTGrab2.cpp(2970): warning C4018: “<”: 有符号/无符号不匹配
+         DetectData.cpp
+         TShowData.cpp
+         VisionCalibration.cpp
+     1>C:\Program Files (x86)\Point Grey Research\FlyCapture2\include\FlyCapture2.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\FlyCapture2Defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Error.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Camera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\CameraBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\GigECamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Image.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         VisionProject.cpp
+     1>C:\Program Files (x86)\Point Grey Research\FlyCapture2\include\FlyCapture2.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\FlyCapture2Defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Error.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Camera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\CameraBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\GigECamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Image.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         VisionProjectDoc.cpp
+     1>C:\Program Files (x86)\Point Grey Research\FlyCapture2\include\FlyCapture2.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\FlyCapture2Defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Error.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Camera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\CameraBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\GigECamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Image.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         VisionProjectView.cpp
+     1>C:\Program Files (x86)\Point Grey Research\FlyCapture2\include\FlyCapture2.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\FlyCapture2Defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Error.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Camera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\CameraBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\GigECamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Image.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\point grey research\flycapture2\include\Utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\VisionProject.res" VisionProject.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\test\VisionSolution20160325\Release\VisionProject.exe" /INCREMENTAL:NO /NOLOGO FlyCapture2.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_nonfree2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_videostab2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\test\VisionSolution20160325\Release\VisionProject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\test\VisionSolution20160325\Release\VisionProject.lib" /MACHINE:X86 /SAFESEH Release\VisionProject.res
+         Release\CameraGrab.obj
+         Release\ComPart.obj
+         Release\Cvgdi.obj
+         Release\DetObjectPar.obj
+         Release\DoubleCrane.obj
+         Release\log.obj
+         Release\MainFrm.obj
+         Release\NetWork.obj
+         Release\PointGray.obj
+         Release\SocketServer.obj
+         Release\StaticClass.obj
+         Release\stdafx.obj
+         Release\svPTGrab2.obj
+         Release\DetectData.obj
+         Release\TShowData.obj
+         Release\VisionCalibration.obj
+         Release\VisionProject.obj
+         Release\VisionProjectDoc.obj
+         Release\VisionProjectView.obj
+         正在生成代码
+         已完成代码的生成
+         VisionProject.vcxproj -> D:\test\VisionSolution20160325\Release\VisionProject.exe
+     1>已完成生成项目“D:\test\VisionSolution20160325\VisionProject\VisionProject.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.39
